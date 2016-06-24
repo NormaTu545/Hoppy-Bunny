@@ -17,19 +17,9 @@ class GameScene: SKScene {
     let fixedDelta: CFTimeInterval = 1.0/60.0 /* 60 FPS */
     let scrollSpeed: CGFloat = 160
     
-    func dump(n: SKNode, indent : String = "") {
-        let newIndent = indent + "  "
-        print("\(indent)\(n)")
-        for c : SKNode in n.children {
-            dump(c, indent: newIndent)
-        }
-    }
-    
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         
-        /* Recursive node search for 'hero' (child of referenced node) */
-        dump(self)
         hero = self.childNodeWithName("//hero") as! SKSpriteNode
         
         /* Set reference to scroll layer node */
