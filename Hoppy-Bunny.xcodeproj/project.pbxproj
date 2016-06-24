@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1296041D1DA9F200DBCE4B /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD1296031D1DA9F100DBCE4B /* Obstacle.sks */; };
 		ADCA47C31D1D96720091E7A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCA47C21D1D96720091E7A0 /* AppDelegate.swift */; };
 		ADCA47C51D1D96720091E7A0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADCA47C41D1D96720091E7A0 /* GameScene.sks */; };
 		ADCA47C71D1D96720091E7A0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCA47C61D1D96720091E7A0 /* GameScene.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD1296031D1DA9F100DBCE4B /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
 		ADCA47BF1D1D96720091E7A0 /* Hoppy-Bunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hoppy-Bunny.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCA47C21D1D96720091E7A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADCA47C41D1D96720091E7A0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				ADCA47C21D1D96720091E7A0 /* AppDelegate.swift */,
 				ADCA47D81D1D96F40091E7A0 /* CGFloat+Extensions.swift */,
 				ADCA47C41D1D96720091E7A0 /* GameScene.sks */,
+				AD1296031D1DA9F100DBCE4B /* Obstacle.sks */,
 				ADCA47C61D1D96720091E7A0 /* GameScene.swift */,
 				ADCA47C81D1D96720091E7A0 /* GameViewController.swift */,
 				ADCA47CA1D1D96720091E7A0 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				ADCA47C51D1D96720091E7A0 /* GameScene.sks in Resources */,
 				ADCA47D11D1D96720091E7A0 /* LaunchScreen.storyboard in Resources */,
+				AD1296041D1DA9F200DBCE4B /* Obstacle.sks in Resources */,
 				ADCA47CE1D1D96720091E7A0 /* Assets.xcassets in Resources */,
 				ADD1430D1D1D9A2900C26539 /* Hero.sks in Resources */,
 				ADCA47CC1D1D96720091E7A0 /* Main.storyboard in Resources */,
