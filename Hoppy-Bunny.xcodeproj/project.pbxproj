@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AD1296041D1DA9F200DBCE4B /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD1296031D1DA9F100DBCE4B /* Obstacle.sks */; };
+		AD83E2D91D1DCB160031E7BA /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = AD83E2D71D1DCB160031E7BA /* sfx_flap.caf */; };
+		AD83E2DA1D1DCB160031E7BA /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = AD83E2D81D1DCB160031E7BA /* sfx_goal.caf */; };
 		ADCA47C31D1D96720091E7A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCA47C21D1D96720091E7A0 /* AppDelegate.swift */; };
 		ADCA47C51D1D96720091E7A0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADCA47C41D1D96720091E7A0 /* GameScene.sks */; };
 		ADCA47C71D1D96720091E7A0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCA47C61D1D96720091E7A0 /* GameScene.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		AD1296031D1DA9F100DBCE4B /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
+		AD83E2D71D1DCB160031E7BA /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
+		AD83E2D81D1DCB160031E7BA /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
 		ADCA47BF1D1D96720091E7A0 /* Hoppy-Bunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hoppy-Bunny.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCA47C21D1D96720091E7A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADCA47C41D1D96720091E7A0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD83E2D61D1DCB160031E7BA /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				AD83E2D71D1DCB160031E7BA /* sfx_flap.caf */,
+				AD83E2D81D1DCB160031E7BA /* sfx_goal.caf */,
+			);
+			path = SFX;
+			sourceTree = "<group>";
+		};
 		ADCA47B61D1D96720091E7A0 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +86,7 @@
 				ADCA47C81D1D96720091E7A0 /* GameViewController.swift */,
 				ADCA47CA1D1D96720091E7A0 /* Main.storyboard */,
 				ADCA47CD1D1D96720091E7A0 /* Assets.xcassets */,
+				AD83E2D61D1DCB160031E7BA /* SFX */,
 				ADCA47CF1D1D96720091E7A0 /* LaunchScreen.storyboard */,
 				ADCA47D21D1D96720091E7A0 /* Info.plist */,
 			);
@@ -141,9 +155,11 @@
 				ADCA47C51D1D96720091E7A0 /* GameScene.sks in Resources */,
 				ADCA47D11D1D96720091E7A0 /* LaunchScreen.storyboard in Resources */,
 				AD1296041D1DA9F200DBCE4B /* Obstacle.sks in Resources */,
+				AD83E2D91D1DCB160031E7BA /* sfx_flap.caf in Resources */,
 				ADCA47CE1D1D96720091E7A0 /* Assets.xcassets in Resources */,
 				ADD1430D1D1D9A2900C26539 /* Hero.sks in Resources */,
 				ADCA47CC1D1D96720091E7A0 /* Main.storyboard in Resources */,
+				AD83E2DA1D1DCB160031E7BA /* sfx_goal.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
