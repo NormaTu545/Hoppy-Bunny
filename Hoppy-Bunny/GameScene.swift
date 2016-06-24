@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
     var hero: SKSpriteNode!
     var scrollLayer: SKNode!
     var sinceTouch : CFTimeInterval = 0
@@ -27,6 +27,14 @@ class GameScene: SKScene {
         
         /* Set reference to obstacle layer node */
         obstacleLayer = self.childNodeWithName("obstacleLayer")
+        
+        /* Set physics contact delegate */
+        physicsWorld.contactDelegate = self
+    }
+    
+    func didBeginContact(contact: SKPhysicsContact) {
+        /* Hero touches anything, game over */
+        print("TODO: Add contact code")
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
